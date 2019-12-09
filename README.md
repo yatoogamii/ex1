@@ -24,6 +24,12 @@ Et un objet contenant la demande du recruteur, par exemple :
 { "language": "spanish", "level": 2, "required": true }
 ```
 
+comme ceci :
+```js
+const candidates = [ {"name": "elias", "languages": [{ "language": "english", "level": 2 }, {"language": "german", "level": 1 } ] }, ................... ];
+const request = { "language": "spanish", "level": 2, "required": true };
+filterCandidate(candidates, request)
+```
 ### Le resultat
 
 La fonction doit éliminer tous les candidats ne correspondant pas au moins à la demande. Bien entendu elle conserve ceux qui excèdent la demande (en parlant mieux la langue que ce qui est demandé)
