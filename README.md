@@ -8,7 +8,7 @@ Le test est déjà écrit. A vous d'écrire la fonction correspondante.
 
 Nous avons des candidats qui parlent soit anglais, soit espagnol, soit allemand, soit italien, soit rien, soit n'importe quelle combinaison de ces langues.
 
-Ils parlent tous avec un niveau soit ecellent (1), soit bon (2), soit débutant (3).
+Ils parlent tous avec un niveau soit excellent (1), soit bon (2), soit débutant (3).
 
 En tant que recruteur, je cherche des gens parlant une ou plusieurs de ces langues, avec un niveau excellent (1), bon(2) ou débutant(3). Pour moi ce critère est soit impératif (required=true) soit facultatif (required=false).
 
