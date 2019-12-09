@@ -4,7 +4,7 @@ Une méthode de travail consiste à écrire le test unitaire d'une fonction avan
 
 Le test est déjà écrit. A vous d'écrire la fonction correspondante.
 
-## Le cas
+### Le cas
 
 Nous avons des candidats qui parlent soit anglais, soit espagnol, soit allemand, soit italien, soit rien, soit n'importe quelle combinaison de ces langues.
 
@@ -12,7 +12,7 @@ Ils parlent tous avec un niveau soit ecellent (1), soit bon (2), soit débutant 
 
 En tant que recruteur, je cherche des gens parlant une ou plusieurs de ces langues, avec un niveau excellent (1), bon(2) ou débutant(3). Pour moi ce critère est soit impératif (required=true) soit facultatif (required=false).
 
-## L'object de la fonction
+### L'object de la fonction
 
 La fonction prend un tableau de candidats en json : par exemple :
 ```json
@@ -24,11 +24,11 @@ Et un objet contenant la demande du recruteur, par exemple :
 { "language": "spanish", "level": 2, "required": true }
 ```
 
-## Le resultat
+### Le resultat
 
 La fonction doit éliminer tous les candidats ne correspondant pas au moins à la demande. Bien entendu elle conserve ceux qui excèdent la demande (en parlant mieux la langue que ce qui est demandé)
 
-# BUT 1
+## BUT 1
 
 entrer une demande d'un recruteur, et les candidats suivants (qui seront envoyés à la fonction pour le test) : 
 - un candidat qui vérifie pile la demande (langues et niveau) 
@@ -37,23 +37,23 @@ entrer une demande d'un recruteur, et les candidats suivants (qui seront envoyé
 - un candidat qui parle exactement les langues de la demande et encore mieux que ce qui est demandé 
 - un candidat qui parle les langues demandées, mieux, et en plus d'autres langues non demandées.
 
-# BUT 2
+## BUT 2
 
 Vérifier en sortie que ceux qui doivent se trouver s'y trouvent bien , et ceux qui ne doivent pas s'y trouver ne s'y trouvent pas
 
 Lancer le test, il doit évidement échouer puisque la fonction est vide.
 
-# BUT 3
+## BUT 3
 
 Ecrire la fonction de tri, les tests doivent tous renvoyer ok !
 
-# BUT 4
+## BUT 4
 
 Ecrire une nouvelle fonction qui chronomètre l'execution de 100.000 fois son execution OU une fonction qui compte combien de fois la fonction s'éxecute en 10s 
 
 Lancer cette fonction.
 
-# Commandes utiles 
+### Commandes utiles 
 
 (execute ces commandes à la racine du projet)
 
