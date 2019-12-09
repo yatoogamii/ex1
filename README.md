@@ -28,6 +28,9 @@ Et un objet contenant la demande du recruteur, par exemple :
 
 La fonction doit éliminer tous les candidats ne correspondant pas au moins à la demande. Bien entendu elle conserve ceux qui excèdent la demande (en parlant mieux la langue que ce qui est demandé)
 
+&nbsp;
+&nbsp;
+
 ## BUT 1
 
 entrer une demande d'un recruteur, et les candidats suivants (qui seront envoyés à la fonction pour le test) : 
@@ -52,6 +55,9 @@ Ecrire la fonction de tri, les tests doivent tous renvoyer ok !
 Ecrire une nouvelle fonction qui chronomètre l'execution de 100.000 fois son execution OU une fonction qui compte combien de fois la fonction s'éxecute en 10s 
 
 Lancer cette fonction.
+
+&nbsp;
+&nbsp;
 
 ### Commandes utiles 
 
