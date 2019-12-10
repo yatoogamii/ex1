@@ -39,7 +39,7 @@ Elle returnera donc un tableau avec les candidats qui valide la demande du recru
 &nbsp;
 &nbsp;
 
-## BUT 1
+## Ex 1
 
 entrer une demande d'un recruteur, et les candidats suivants (qui seront envoyés à la fonction pour le test) : 
 - un candidat qui vérifie pile la demande (langues et niveau) 
@@ -48,17 +48,17 @@ entrer une demande d'un recruteur, et les candidats suivants (qui seront envoyé
 - un candidat qui parle exactement les langues de la demande et encore mieux que ce qui est demandé 
 - un candidat qui parle les langues demandées, mieux, et en plus d'autres langues non demandées.
 
-## BUT 2
+## Ex 2
 
 Vérifier en sortie que ceux qui doivent se trouver s'y trouvent bien , et ceux qui ne doivent pas s'y trouver ne s'y trouvent pas
 
 Lancer le test, il doit évidement échouer puisque la fonction est vide.
 
-## BUT 3
+## Ex 3
 
 Ecrire la fonction de tri, les tests doivent tous renvoyer ok !
 
-## BUT 4
+## Ex 4
 
 Ecrire une nouvelle fonction qui chronomètre l'execution de 100.000 fois son execution OU une fonction qui compte combien de fois la fonction s'éxecute en 10s 
 
