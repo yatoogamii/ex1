@@ -34,6 +34,8 @@ filterCandidate(candidates, request)
 
 La fonction doit éliminer tous les candidats ne correspondant pas au moins à la demande. Bien entendu elle conserve ceux qui excèdent la demande (en parlant mieux la langue que ce qui est demandé)
 
+Elle returnera un tableau avec les candidats qui valide la demande du recruteur
+
 &nbsp;
 &nbsp;
 
