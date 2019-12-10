@@ -10,6 +10,7 @@ interface IRequest {
   language: string;
   level: number;
 }
-export function filterCandidate(candidates: ICandidate[], request: IRequest): ICandidate[] {
+
+export function filterCandidates(candidates: ICandidate[], request: IRequest): ICandidate[] {
   return []
 }
